@@ -22,5 +22,5 @@ config interface 'lan6'
 
 config device
 	option name 'eth0'
-	option mtu '1492'
+	option mtu '1500'
 
