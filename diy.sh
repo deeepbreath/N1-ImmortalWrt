@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 添加 nikki feed
-grep -qF 'src-git nikki' feeds.conf.default || \
-  echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> feeds.conf.default
+# grep -qF 'src-git nikki' feeds.conf.default || \
+# echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> feeds.conf.default
 
 # 更新 feeds（第一次）
 ./scripts/feeds update -a
