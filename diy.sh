@@ -16,6 +16,7 @@ git clone --depth=1 https://istore.istoreos.com/repo-apk/all/store package/luci-
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon || true
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-app-argon-config || true
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-i18n-argon-config-zh-cn || true
+git clone --depth=1 https://github.com/sbwml/luci-app-quickfile package/quickfile || true
 
 
 # 安装 feeds
