@@ -17,6 +17,7 @@ git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-t
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-app-argon-config || true
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-i18n-argon-config-zh-cn || true
 git clone --depth=1 https://github.com/sbwml/luci-app-quickfile package/quickfile || true
+git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall package/passwall || true
 
 
 # 安装 feeds
