@@ -89,7 +89,7 @@ jobs:
         kernel_repo: ophub/kernel
         kernel_usage: flippy
         openwrt_kernel: 6.12.y
-        builder_name: Winnie-0721
+        builder_name: kay
         
     - name: 发布固件
       uses: softprops/action-gh-release@master
