@@ -18,7 +18,9 @@ git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-a
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-i18n-argon-config-zh-cn || true
 git clone --depth=1 https://github.com/sbwml/luci-app-quickfile package/quickfile || true
 git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall package/passwall || true
-
+git clone --depth=1 https://github.com/wukongdaily/apk/tree/master/run/arm64-a53/luci-app-quickstart package/quickstart || true
+git clone --depth=1 https://github.com/wukongdaily/apk/tree/master/run/arm64-a53/luci-app-quickstart package/luci-app-quickstart || true
+git clone --depth=1 https://github.com/wukongdaily/apk/tree/master/run/arm64-a53/luci-app-quickstart package/luci-i18n-quickstart-zh-cn || true
 
 # 安装 feeds
 ./scripts/feeds install -a
